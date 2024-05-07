@@ -1,13 +1,18 @@
-package simple;
+package generic;
+/**
+ * Generic version of the Box class.
+ * @param <T> the type of the value being boxed
+ */
+public class Box<T> {
+    //T == Type
 
-public class Box {
-    private Object object;
+    private T t;
 
-    public Object getObject() {
-        return object;
+    public T getObject() {
+        return t;
     }
 
-    public void setObject(Object object) {
-        this.object = object;
+    public void set(T t) {
+        this.t = t;
     }
 }
