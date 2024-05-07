@@ -11,3 +11,4 @@ public class OrderedPair<K, V> implements Pair<K, V> {
     public K getKey()	{ return key; }
     public V getValue() { return value; }
 }
+
