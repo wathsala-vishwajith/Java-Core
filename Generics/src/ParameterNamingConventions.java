@@ -6,7 +6,13 @@ public class ParameterNamingConventions {
         Pair<String, String>  p2 = new OrderedPair<String, String>("hello", "world");
 
         //parameterized Types
-        OrderedPair<String, Box<Integer>> p = new OrderedPair<>("primes", new Box<Integer>());
+        OrderedPair<String, Box<Integer>> p3 = new OrderedPair<>("primes", new Box<Integer>());
+
+
+        //raw types
+        RawPair p4 = new RawPair();
+
+
 
     }
 }
