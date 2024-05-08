@@ -26,3 +26,5 @@ public class Box<T> {
         integerBox.inspect("some text"); // error: this is still String!
     }
 }
+
+
